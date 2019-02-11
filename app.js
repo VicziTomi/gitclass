@@ -1,7 +1,8 @@
 let a = 10;
 let text = 'asd';
+let c = true;
 
-function combine(a, b) {
-  return a + b;
+function combine (a, b, c) {
+  return a + b + c;
 }
-combine(1, 3);
+console.log(combine(a, text, c));
